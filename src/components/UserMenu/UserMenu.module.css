@@ -1,0 +1,15 @@
+.btn {
+  width: 90px;
+  height: 40px;
+  padding: 8px 15px;
+  margin-left: auto;
+  border-radius: 10px;
+  background-color: #000000;
+  color: #800606;
+  font-weight: 600;
+  transition: transform 250ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.btn:hover {
+  transform: scale(0.95);
+}

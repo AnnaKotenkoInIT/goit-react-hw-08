@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.title {
+  align-items: center;
+  font-size: 4em;
+  font-weight: 500;
+  font-family: inherit;
+  padding: 15px;
+  padding-top: 30px;
+  gap: 15px;
+  color: rgb(62, 13, 102);
+  text-shadow: 1px 1px 2px rgb(62, 13, 102), 0 0 1em rgb(242, 242, 243),
+    0 0 0.2em rgb(241, 239, 243);
+}
+
+.text {
+  font-size: 2em;
+  text-shadow: 1px 1px 2px rgb(62, 13, 102), 0 0 1em rgb(242, 242, 243),
+    0 0 0.2em rgb(241, 239, 243);
+}
